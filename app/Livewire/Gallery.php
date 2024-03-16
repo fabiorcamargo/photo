@@ -14,8 +14,8 @@ class Gallery extends Component
     public $isVisible;
 
     public function mount(){
-        $this->gallery = Portifolio::all();
-        $this->photos = PortifolioPhoto::all();
+        $this->gallery = Portifolio::orderBy('updated_at', 'desc')->get();
+        $this->photos = PortifolioPhoto::orderBy('updated_at', 'desc')->get();
     }
 
     public function placeholder()
