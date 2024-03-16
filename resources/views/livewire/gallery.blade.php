@@ -1,6 +1,6 @@
 <section id="examples" class="section">
     <div class="container">
-        <div class="row">
+        <div class="col">
             <div class="px-4">
                 <ul class="box-container grid gap-3 columns-2 md:columns-3 relative">
                     @foreach ($gallery as $key => $value)
