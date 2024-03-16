@@ -39,6 +39,7 @@ class PortifolioPhotoResource extends Resource
                             ->multiple()
                             ->maxFiles(5)
                             ->hiddenLabel()
+                            ->moveFiles()
                             ->responsiveImages(),
                     ])
                     ->collapsible(),

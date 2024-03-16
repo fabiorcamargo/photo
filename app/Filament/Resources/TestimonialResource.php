@@ -39,7 +39,7 @@ class TestimonialResource extends Resource
                     ->collection('client-avatar')
                     ->hiddenLabel()
                     ->reorderable()
-                    //->responsiveImages()
+                    ->moveFiles()
                     ->optimize('webp'),
             ]);
     }

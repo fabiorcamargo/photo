@@ -44,6 +44,7 @@ class ConfigResource extends Resource
             ->columns([
                 Tables\Columns\SpatieMediaLibraryImageColumn::make('avatar')
                     ->disk('avatar')
+                    ->moveFiles()
                     ->collection('avatar'),
                     Tables\Columns\TextColumn::make('body.wp'),
                     Tables\Columns\TextColumn::make('body.insta'),
