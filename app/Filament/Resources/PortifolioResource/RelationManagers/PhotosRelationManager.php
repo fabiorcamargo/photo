@@ -24,7 +24,6 @@ class PhotosRelationManager extends RelationManager
                     ->disk('media')
                     ->collection('portifolio-images')
                     ->multiple()
-                    ->maxFiles(5)
                     ->hiddenLabel()
                     ->reorderable()
                     //->responsiveImages()
