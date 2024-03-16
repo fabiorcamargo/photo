@@ -14,7 +14,7 @@ class Gallery extends Component
     public $isVisible;
 
     public function mount(){
-        $this->gallery = Portifolio::latest()->all();
+        $this->gallery = Portifolio::all();
         $this->photos = PortifolioPhoto::all();
     }
 
