@@ -38,5 +38,3 @@ Route::get('image/{id}/thumb', function($id){
     $url = $photo->getFirstMediaUrl('portifolio-images', 'thumb');
     return response()->redirectTo($url);
 })->name('image-thumb.show');
-
-require __DIR__.'/auth.php';
