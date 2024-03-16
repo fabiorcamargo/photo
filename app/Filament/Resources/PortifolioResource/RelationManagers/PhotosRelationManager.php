@@ -42,6 +42,7 @@ class PhotosRelationManager extends RelationManager
             ->columns([
                 Tables\Columns\SpatieMediaLibraryImageColumn::make('file')
                     ->disk('media')
+                    ->conversion('thumb')
                     ->collection('portifolio-images'),
             ])
             ->filters([
