@@ -26,7 +26,7 @@
 
                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img id="photo{{$key}}" src="{{$portifolio->photos->first()->getFirstMediaUrl('portifolio-images', 'banner')}}"
-                        class="imagem-slide object-cover object-top w-full h-full" alt="Slide 1">
+                        class="imagem-slide object-cover w-full h-full" alt="Slide 1">
                     </div>
                 @endforeach
             </div>
