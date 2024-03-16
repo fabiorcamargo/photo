@@ -14,7 +14,7 @@ class Gallery extends Component
     public $isVisible;
 
     public function mount(){
-        $this->gallery = Portifolio::all();
+        $this->gallery = Portifolio::latest()->all();
         $this->photos = PortifolioPhoto::all();
     }
 
@@ -45,7 +45,7 @@ class Gallery extends Component
         HTML;
     }
 
-    
+
     public function render()
     {
         return view('livewire.gallery');
