@@ -37,7 +37,6 @@ class PortifolioPhotoResource extends Resource
                         SpatieMediaLibraryFileUpload::make('media')
                             ->collection('portifolio-images')
                             ->multiple()
-                            ->maxFiles(5)
                             ->hiddenLabel()
                             ->moveFiles()
                             ->responsiveImages(),
