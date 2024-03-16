@@ -10,8 +10,11 @@ class SlideShow extends Component
 {
     public $portifolio;
     public $photos;
+    public $config;
+
     public function mount(){
-        ($this->photos = $this->portifolio);
+        $this->photos = $this->portifolio;
+        $this->config = Config::first();
     }
 
     public function wplink() {

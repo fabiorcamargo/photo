@@ -10,8 +10,10 @@ use Livewire\Component;
 class SlideShow extends Component
 {
     public $portifolios;
+    public $config;
     public function mount(){
         $this->portifolios = Portifolio::latest()->take(10)->get();
+        $this->config = Config::first();
     }
 
     public function wplink() {

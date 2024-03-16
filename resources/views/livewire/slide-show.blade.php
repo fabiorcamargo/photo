@@ -33,7 +33,7 @@
         </div>
         <a href="/" class="slide-content space-y-2 z-50 text-white hover:text-white">
             <div class="px-8 max-w-lg rounded-xl py-4 flex smcenter:items- space-y-0 space-x-6">
-                <img class="block h-24 rounded-full mx-0 shrink-0" src="https://lillyalmeida.com.br/avatar/lilly/1683322175508.jpg" alt="Woman's Face">
+                <img class="block h-24 rounded-full mx-0 shrink-0" src="{{$config->getFirstMediaUrl('avatar', 'avatar')}}" alt="Woman's Face">
                 <div id="banner" class=" space-y-2 text-left">
                     <div class="sm:space-y-0.5">
                         <h1 class="font-light text-6xl text-white" style=" font-family: 'Whisper';">Lilly Almeida</h1>
