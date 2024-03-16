@@ -27,6 +27,7 @@ class ConfigResource extends Resource
             ->schema([
                 Forms\Components\SpatieMediaLibraryFileUpload::make('body.avatar')
                     ->disk('avatar')
+                    ->moveFiles()
                     ->collection('avatar')
                     ->hiddenLabel()
                     ->optimize('webp')
@@ -44,7 +45,6 @@ class ConfigResource extends Resource
             ->columns([
                 Tables\Columns\SpatieMediaLibraryImageColumn::make('avatar')
                     ->disk('avatar')
-                    ->moveFiles()
                     ->collection('avatar'),
                     Tables\Columns\TextColumn::make('body.wp'),
                     Tables\Columns\TextColumn::make('body.insta'),
