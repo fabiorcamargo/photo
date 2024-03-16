@@ -1,7 +1,7 @@
 
     <div class="px-4">
         <ul
-            class="box-container grid gap-3 columns-2 md:columns-3 relative">
+            class="box-container grid gap-3 columns-2 md:columns-3 relative grid-flow-row-dense grid-cols-3">
             @foreach ($gallery as $key => $value)
 
             <li class="box">
