@@ -468,7 +468,7 @@ strong {
 }
 
 .box .inner {
-    padding: 2px;
+    padding: 10px;
     position: relative;
 }
 
@@ -502,7 +502,7 @@ strong {
 }
 
 .three-cols .box {
-    width: 100%;
+    width: 50%;
 }
 
 .four-cols .box {
@@ -648,7 +648,7 @@ footer a {
 
 @media (min-width: 390px) {
     .three-cols .box {
-        width: 30%;
+        width: 50%;
     }
 }
 
