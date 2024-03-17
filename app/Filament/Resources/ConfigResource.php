@@ -36,6 +36,8 @@ class ConfigResource extends Resource
                     ->required(),
                 Forms\Components\TextInput::make('body.insta')
                     ->required(),
+                    Forms\Components\ColorPicker::make('body.bgcolor')
+                    ->required()
             ]);
     }
 

@@ -20,11 +20,8 @@
 
 
     </head>
-    <body class="font-sans bg-white antialiased">
+    <body class="font-sans  antialiased" style="background-color: {{ App\Models\Config::first()->body['bgcolor'] == null ? '#fff' : App\Models\Config::first()->body['bgcolor'] }} ">
         {{ $slot }}
-
-
-
     </body>
 
 
