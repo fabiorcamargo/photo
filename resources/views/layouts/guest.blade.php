@@ -78,7 +78,7 @@
     </script>
     <!-- End Google Tag Manager -->
 
-    <title>{{ env('APP_NAME') }}</title>
+    <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="icon" type="image/x-icon" href="https://lillyalmeida.com.br/avatar/254/01HS4QN3XX2C1CGFK6BCFGC3KT.webp" />
 
 
