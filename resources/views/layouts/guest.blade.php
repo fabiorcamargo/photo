@@ -34,7 +34,7 @@
     <meta property="og:locale" content="pt_BR">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{{env('APP_NAME')}}">
-    <meta property="og:description" content="{{env('APP_NAME')}}">
+    <meta property="og:description" content="Olá! Meu nome é Lilly Almeida, sou uma fotógrafa e tenho uma paixão por capturar a beleza e a personalidade de cada pessoa em minhas fotos.">
     <meta property="og:image" content="https://lillyalmeida.com.br/avatar/254/01HS4QN3XX2C1CGFK6BCFGC3KT.webp">
     <meta property="og:url" content="https://lillyalmeida.com.br/">
     <meta property="og:image:alt" content="Lilly Almeida Fotografia" />
@@ -42,21 +42,20 @@
     <meta property="article:author" content="https://www.facebook.com/LillyAlmeida.fotografia/">
     <meta property="article:publisher" content="https://www.facebook.com/LillyAlmeida.fotografia/">
 
-
     <meta name="twitter:title" content="{{env('APP_NAME')}}">
-    <meta name="twitter:description" content="{{env('APP_NAME')}}">
+    <meta name="twitter:description" content="Olá! Meu nome é Lilly Almeida, sou uma fotógrafa e tenho uma paixão por capturar a beleza e a personalidade de cada pessoa em minhas fotos.">
     <meta name="twitter:url" content="https://lillyalmeida.com.br/">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image:alt" content="Lilly Almeida Fotografia">
 
-    <script type="application/ld+json">
+    {{-- <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "Organization",
           "url": "{{url('/')}}",
           "logo": "https://lillyalmeida.com.br/avatar/254/01HS4QN3XX2C1CGFK6BCFGC3KT.webp"
         }
-    </script>
+    </script> --}}
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4H3WFRVKV"></script>
