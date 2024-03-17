@@ -80,8 +80,8 @@
     </script>
     <!-- End Google Tag Manager -->
 
-    <title>{{ $pageTitle }}</title>
-    <link rel="icon" type="image/x-icon" href="{{Vite::asset('resources/images/Logo-Lilly-Photo.png')}}" />
+    <title>{{ env('APP_NAME') }}</title>
+    <link rel="icon" type="image/x-icon" href="https://lillyalmeida.com.br/avatar/254/01HS4QN3XX2C1CGFK6BCFGC3KT.webp" />
 
 
 
