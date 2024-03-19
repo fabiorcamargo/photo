@@ -43,12 +43,12 @@ class PortifolioPhoto extends Model implements HasMedia
 
     protected static function booted(): void
     {
-        static::deleted(function (PortifolioPhoto $PortifolioPhoto) {
-            $fotosRemovidas = $PortifolioPhoto->file;
-            foreach ($fotosRemovidas as $fotoRemovida) {
-                Storage::disk('public')->delete($PortifolioPhoto->file);
-            }
-        });
+        // static::deleted(function (PortifolioPhoto $PortifolioPhoto) {
+        //     $fotosRemovidas = $PortifolioPhoto->file;
+        //     foreach ($fotosRemovidas as $fotoRemovida) {
+        //         Storage::disk('public')->delete($PortifolioPhoto->file);
+        //     }
+        // });
 
         static::updated(function (PortifolioPhoto $PortifolioPhoto) {
             //dd($PortifolioPhoto);
@@ -57,15 +57,15 @@ class PortifolioPhoto extends Model implements HasMedia
         static::updating(function (PortifolioPhoto $PortifolioPhoto) {
             //dd($PortifolioPhoto->getOriginal('file'));
 
-            $novasFotos = $PortifolioPhoto->getAttribute('file');
-            $fotosOriginais = $PortifolioPhoto->getOriginal('file');
-            $fotosRemovidas = array_diff($fotosOriginais, $novasFotos);
+            // $novasFotos = $PortifolioPhoto->getAttribute('file');
+            // $fotosOriginais = $PortifolioPhoto->getOriginal('file');
+            // $fotosRemovidas = array_diff($fotosOriginais, $novasFotos);
 
-            //dd($fotosRemovidas);
+            // //dd($fotosRemovidas);
 
-            foreach ($fotosRemovidas as $fotoRemovida) {
-                Storage::disk('public')->delete($fotoRemovida);
-            }
+            // foreach ($fotosRemovidas as $fotoRemovida) {
+            //     Storage::disk('public')->delete($fotoRemovida);
+            // }
         });
 
         static::created(function (PortifolioPhoto $PortifolioPhoto) {

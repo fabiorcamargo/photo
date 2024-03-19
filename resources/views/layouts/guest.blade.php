@@ -90,7 +90,7 @@
 </head>
 
 <body class="font-sans  antialiased"
-    style="background-color: {{ App\Models\Config::first()->body['bgcolor'] == null ? '#fff' : App\Models\Config::first()->body['bgcolor'] }} ">
+    style="background-color: {{ App\Models\Config::first() ? App\Models\Config::first()->body['bgcolor']  : '#fff' }} ">
     {{ $slot }}
 </body>
 
