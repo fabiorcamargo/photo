@@ -1,6 +1,6 @@
 <x-guest-layout>
-    <link rel="stylesheet" href="{{asset('plugins/glightbox/demo/css/style.css')}}" />
-    <link rel="stylesheet" href="{{asset('plugins/glightbox/dist/css/glightbox.css')}}" />
+    <link  href="{{asset('plugins/glightbox/demo/css/style.css')}}" />
+    <link  href="{{asset('plugins/glightbox/dist/css/glightbox.css')}}" />
     <style>
         .imagem-vibrante {
             filter: saturate(120%);
