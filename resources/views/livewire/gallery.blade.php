@@ -11,7 +11,6 @@
         <ul class="box-container grid gap-3 columns-2 md:columns-3 relative">
             <!-- Inicia um novo ul -->
             @endif
-
             @if ($value->photos->first())
             <li class="box py-2">
                 <!-- Botão para abrir o modal -->

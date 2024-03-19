@@ -18,7 +18,8 @@ class SlideShow extends Component
 
     public function wplink() {
         $config = Config::first();
-        return redirect()->away('https://wa.me//'.$config->body['wp'].'?text=Tenho%20interesse%20em%20comprar%20seu%20carro');
+        //dd($config);
+        return redirect()->away('https://wa.me//'.$config->body['wp'].'?text='. $config->body['wp_msg']);
     }
 
     public function instalink() {
@@ -28,6 +29,7 @@ class SlideShow extends Component
 
     public function render()
     {
+
 
         return view('livewire.slide-show');
     }

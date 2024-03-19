@@ -16,11 +16,6 @@
     <livewire:gallery />
     <livewire:testimonial />
 
-
-
-
-
-
     <script src="{{asset('plugins/simplelightbox/dist/simple-lightbox.js')}}"></script>
     <script src="{{asset('plugins/glightbox/demo/js/valde.min.js')}}"></script>
     <script src="{{asset('plugins/glightbox/dist/js/glightbox.js')}}"></script>

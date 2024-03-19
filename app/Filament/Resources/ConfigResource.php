@@ -34,6 +34,9 @@ class ConfigResource extends Resource
                     ->columnSpanFull(),
                 Forms\Components\TextInput::make('body.wp')
                     ->required(),
+                Forms\Components\TextInput::make('body.wp_msg')
+                    ->label('Mensagem Whatsapp')
+                    ->required(),
                 Forms\Components\TextInput::make('body.insta')
                     ->required(),
                     Forms\Components\ColorPicker::make('body.bgcolor')
