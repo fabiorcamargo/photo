@@ -26,7 +26,7 @@
                 @if($portifolio->photos->first)
 
                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img id="photo{{$key}}" src="{{$portifolio->photos->first()->getFirstMediaUrl('portifolio-images', 'banner')}}"
+                    <img id="photo{{$key}}" src="{{$portifolio->photos->first() ? $portifolio->photos->first()->getFirstMediaUrl('portifolio-images', 'banner') : ''}}"
                         class="imagem-slide object-cover w-full h-full" alt="Slide 1">
                     </div>
 
