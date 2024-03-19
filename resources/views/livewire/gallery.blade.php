@@ -1,5 +1,5 @@
 <div>
-    <div class="sm:px-8 pt-8">
+    <div class="px-2 sm:px-8 pt-4">
 
         @php $counter = 0; @endphp
 
