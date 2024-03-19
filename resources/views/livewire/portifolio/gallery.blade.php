@@ -53,7 +53,7 @@
         }
     </style>
     <div>
-        <div class="px-4 py-8">
+        <div class="px-4 pt-4">
             <ul
                 class="gallery box-container columns-2 md:columns-3 relative">
                 @foreach ($photos->getMedia('portifolio-images') as $value)
