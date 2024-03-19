@@ -1,6 +1,7 @@
 <div>
 
-    <div class="md:p-10 grid mb-8 border border-gray-700 rounded-lg shadow-sm md:grid-cols-3  ">
+
+    <div class="md:p-10 grid mb-8 rounded-lg shadow-sm md:grid-cols-3  ">
         @foreach ($testimonials as $testimonial)
         <div class="m-2 md:m-4 ">
             <figure class="max-w-screen-md text-center bg-gradient-to-r from-rose-50 to-amber-50 rounded-lg w-full p-4">

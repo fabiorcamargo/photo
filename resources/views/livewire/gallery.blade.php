@@ -62,8 +62,8 @@
                     <!-- Botão para abrir o modal -->
                     <div class="inner">
                         <a href="/portifolio/{{$value->id}}" class="glightbox">
-                            <img class="imagem-vibrante gallery-image h-auto max-w-full rounded-lg"
-                                src="{{ $value->photos->first()->getFirstMediaUrl('portifolio-images', 'thumb') }}" />
+                            <img class="gallery-image imagem-vibrante  h-auto max-w-full rounded-lg"
+                                src="{{ $value->photos->first()->getFirstMediaUrl('portifolio-images', 'thumb') }}" loading="lazy"/>
                         </a>
                     </div>
                 @endif
@@ -90,7 +90,7 @@
             images.forEach(function (image, index) {
                 setTimeout(function () {
                     image.classList.add('active');
-                }, index * 200); // Ajuste o intervalo conforme necessário
+                }, index * 100); // Ajuste o intervalo conforme necessário
             });
         });
     </script>
