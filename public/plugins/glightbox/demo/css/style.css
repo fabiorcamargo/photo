@@ -183,7 +183,7 @@ header {
     left: 0;
     border-bottom: 1px solid transparent;
     z-index: 999;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 header.fixed {
