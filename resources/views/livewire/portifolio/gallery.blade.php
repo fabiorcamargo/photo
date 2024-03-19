@@ -61,8 +61,8 @@
                 <li class="box py-2">
                     <!-- Botão para abrir o modal -->
                     <div class="inner">
-                        <a href="{{$value->getUrl()}}" class="glightbox">
-                            <img class="imagem-vibrante" src="{{$value->getUrl('banner')}}" />
+                        <a href="{{$value->getUrl('banner')}}" class="glightbox">
+                            <img class="imagem-vibrante" src="{{$value->getUrl('thumb')}}" />
                         </a>
                     </div>
                 </li>
