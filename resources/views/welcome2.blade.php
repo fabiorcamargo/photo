@@ -20,7 +20,7 @@
 
 
     <script src="{{asset('plugins/glightbox/demo/js/valde.min.js')}}"></script>
-    <script src="{{asset('plugins/glightbox/dist/js/glightbox.js')}}"></script>
+    <script src="{{asset('plugins/glightbox/dist/js/glightbox.min.js')}}"></script>
     <script src="{{asset('plugins/glightbox/demo/js/site.js')}}"></script>
 
 </x-guest-layout>
