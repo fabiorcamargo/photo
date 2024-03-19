@@ -22,6 +22,13 @@ class PhotosRelationManager extends RelationManager
 
                 Forms\Components\SpatieMediaLibraryFileUpload::make('file')
                     ->disk('media')
+                    ->imageEditor()
+                    ->imageEditorAspectRatios([
+                        '1:1',
+                        '4:5',
+                        '9:16',
+                        '16:9'
+                    ])
                     ->collection('portifolio-images')
                     ->multiple()
                     ->hiddenLabel()

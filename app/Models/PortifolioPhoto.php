@@ -21,10 +21,12 @@ class PortifolioPhoto extends Model implements HasMedia
     {
         $this
             ->addMediaConversion('thumb')
+            ->performOnCollections('media')
             ->fit(Fit::Contain, 800, 800)
             ->nonQueued();
         $this
             ->addMediaConversion('banner')
+            ->performOnCollections('media')
             ->fit(Fit::Contain, 1960, 1960)
             ->nonQueued();
     }

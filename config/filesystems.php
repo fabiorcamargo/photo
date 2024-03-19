@@ -46,13 +46,13 @@ return [
 
         'media' => [
             'driver' => 'local',
-            'root' => public_path('media'),
+            'root' => storage_path('app/public/media'),
             'url' => env('APP_URL').'/media'
         ],
 
         'avatar' => [
             'driver' => 'local',
-            'root' => public_path('avatar'),
+            'root' => storage_path('app/public/avatar'),
             'url' => env('APP_URL').'/avatar'
         ],
 
