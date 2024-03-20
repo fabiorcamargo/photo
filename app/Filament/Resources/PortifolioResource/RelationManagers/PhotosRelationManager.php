@@ -30,6 +30,7 @@ class PhotosRelationManager extends RelationManager
                         '16:9'
                     ])
                     ->collection('portifolio-images')
+                    ->responsiveImages()
                     ->multiple()
                     ->hiddenLabel()
                     ->reorderable()
