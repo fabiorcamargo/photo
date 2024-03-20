@@ -34,7 +34,7 @@ class PhotosRelationManager extends RelationManager
                     ->multiple()
                     ->hiddenLabel()
                     ->reorderable()
-                    //->responsiveImages()
+                    ->responsiveImages()
                     ->optimize('webp'),
             ]);
 
