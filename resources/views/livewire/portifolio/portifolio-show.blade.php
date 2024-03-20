@@ -1,8 +1,6 @@
 <div>
 
-    <link rel="stylesheet" href="{{asset('plugins/glightbox/demo/css/style.css')}}" />
     <link rel="stylesheet" href="{{asset('plugins/glightbox/dist/css/glightbox.css')}}" />
-    <link rel="stylesheet" href="{{asset('plugins/simplelightbox/dist/simple-lightbox.css')}}" />
     <style>
         .imagem-vibrante {
             filter: saturate(120%);
@@ -17,9 +15,7 @@
 
     <livewire:portifolio.gallery :portifolio="$portifolio"/>
 
-    <script src="{{asset('plugins/glightbox/demo/js/valde.min.js')}}"></script>
         <script src="{{asset('plugins/glightbox/dist/js/glightbox.js')}}"></script>
-        <script src="{{asset('plugins/glightbox/demo/js/site.js')}}"></script>
         <script>
             var lightbox = GLightbox();
             lightbox.on('open', (target) => {
