@@ -1,44 +1,6 @@
 <div>
-    <link rel="stylesheet" href="{{asset('plugins/simplelightbox/dist/simple-lightbox.css')}}" />
 
     <style>
-        body {
-            font-family: 'Raleway', sans-serif;
-            font-size: 20px;
-            line-height: 34px;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        .container .gallery a img {
-            float: left;
-            width: 25%;
-            height: auto;
-            border: 2px solid #fff;
-            -webkit-transition: -webkit-transform .15s ease;
-            -moz-transition: -moz-transform .15s ease;
-            -o-transition: -o-transform .15s ease;
-            -ms-transition: -ms-transform .15s ease;
-            transition: transform .15s ease;
-            position: relative;
-        }
-
-        .clear {
-            clear: both;
-        }
-
-        a {
-            color: #009688;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #01695f;
-            text-decoration: none;
-        }
-
         /* CSS para controlar a transição de opacidade */
         .gallery-image {
             opacity: 0;
