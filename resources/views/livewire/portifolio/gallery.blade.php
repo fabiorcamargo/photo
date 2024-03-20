@@ -1,4 +1,5 @@
 <div>
+    <link rel="stylesheet" href="{{asset('plugins/simplelightbox/dist/simple-lightbox.css')}}" />
 
     <style>
         /* CSS para controlar a transição de opacidade */
