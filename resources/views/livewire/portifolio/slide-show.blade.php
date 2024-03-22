@@ -116,6 +116,7 @@
         <div class="slide-docker absolute top-0 left-0 w-full h-full overflow-hidden">
 
             <div class="relative min-w-full min-h-full overflow-hidden">
+                
                 <img class="absolute inset-0 object-cover object-top w-full h-full" src="{{ $portifolio->photos->first() ? $portifolio->photos->first()->getFirstMediaUrl('portifolio-images', 'banner') : ''}}" alt="Imagem">
             </div>
         </div>
