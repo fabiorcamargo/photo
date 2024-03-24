@@ -1,7 +1,7 @@
 <div>
 
     <link rel="stylesheet" href="{{asset('plugins/glightbox/demo/css/style.css')}}" />
-    <link rel="stylesheet" href="{{asset('plugins/glightbox/dist/css/glightbox.css')}}" />
+    {{-- <link rel="stylesheet" href="{{asset('plugins/glightbox/dist/css/glightbox.css')}}" /> --}}
     <style>
         .imagem-vibrante {
             filter: saturate(120%);

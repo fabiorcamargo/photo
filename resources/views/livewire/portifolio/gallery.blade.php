@@ -1,5 +1,4 @@
 <div>
-    <link rel="stylesheet" href="{{asset('plugins/simplelightbox/dist/simple-lightbox.css')}}" />
 
     <style>
         /* CSS para controlar a transição de opacidade */
@@ -18,9 +17,8 @@
     <div>
         <div class="px-4 pt-4">
             <ul
-                class="gallery box-container columns-2 md:columns-3 relative">
+                class="gallery box-container columns-2 md:columns-3 relative" id="my-gallery">
                 @foreach ($photos->getMedia('portifolio-images') as $value)
-
                 <li class="box py-2">
                     <!-- Botão para abrir o modal -->
                     <div class="inner">
