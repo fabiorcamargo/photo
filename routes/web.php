@@ -91,5 +91,6 @@ return 'Imagens responsivas geradas com sucesso!';
 Route::get('whatsapp', function () {
     $config = Config::first();
     //dd($config);
-    return redirect()->away('https://wa.me//'.$config->body['wp'].'?text='. $config->body['wp_msg']);
+    $wp = 'https://wa.me//'.$config->body['wp'].'?text='. $config->body['wp_msg'];
+    return view('whatsapp', ['wp' => $wp]);
 });
