@@ -77,21 +77,9 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link rel="icon" type="image/x-icon" href="https://lillyalmeida.com.br/avatar/254/01HS4QN3XX2C1CGFK6BCFGC3KT.webp" />
 
-
-
     <meta http-equiv="refresh" content="0; url={{$wp}}">
-    <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-
 
 </head>
-
-<body class="font-sans  antialiased"
-    style="background-color: {{ App\Models\Config::first() ? App\Models\Config::first()->body['bgcolor']  : '#fff' }} ">
-    {{ $slot }}
-</body>
-
-
 
 <footer class="bg-white rounded-lg m-4">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
