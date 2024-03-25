@@ -19,7 +19,6 @@ class PhotosRelationManager extends RelationManager
     {
         return $form
             ->schema([
-
                 Forms\Components\SpatieMediaLibraryFileUpload::make('file')
                     ->disk('media')
                     ->imageEditor()
@@ -33,9 +32,7 @@ class PhotosRelationManager extends RelationManager
                     ->responsiveImages()
                     ->multiple()
                     ->hiddenLabel()
-                    ->reorderable()
-                    ->responsiveImages()
-                    ->optimize('webp'),
+                    ->reorderable(),
             ]);
 
         // SpatieMediaLibraryFileUpload::make('file')
