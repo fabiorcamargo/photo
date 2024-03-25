@@ -1,6 +1,7 @@
 <?php
 
 use App\Livewire\Portifolio\PortifolioShow;
+use App\Models\Config;
 use App\Models\PortifolioPhoto;
 use Illuminate\Support\Facades\Route;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
@@ -85,4 +86,9 @@ return 'Imagens responsivas geradas com sucesso!';
     //    // or if you want to add it based on a condition then use
     //    ->withResponsiveImagesIf($condition) // accepts "closure or boolean"
     //    ->toMediaCollection();
+});
+
+Route::get('whatsapp', function () {
+    $config = Config::first();
+    return redirect()->away('https://wa.me//'.$config->body['wp'].'?text='. $config->body['wp_msg']);
 });
