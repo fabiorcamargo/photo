@@ -13,8 +13,7 @@
     </style>
 
     @livewire('portifolio.SlideShow', ['portifolio' => $portifolio])
-
-    <livewire:portifolio.gallery :portifolio="$portifolio" />
+    @livewire('portifolio.gallery', ['portifolio' => $portifolio])
 
     <script src="{{asset('plugins/glightbox/demo/js/valde.min.js')}}"></script>
     <script src="{{asset('plugins/glightbox/dist/js/glightbox.js')}}"></script>

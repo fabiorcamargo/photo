@@ -17,18 +17,6 @@ class PortifolioPhoto extends Model implements HasMedia
     use HasFactory;
     use InteractsWithMedia;
 
-    public function registerMediaConversions(Media $media = null): void
-    {
-        $this
-            ->addMediaConversion('thumb')
-            ->fit(Fit::Contain, 800, 800)
-            ->nonQueued();
-        $this
-            ->addMediaConversion('banner')
-            ->fit(Fit::Contain, 1960, 1960)
-            ->nonQueued();
-    }
-
     protected $fillable = [
         'id',
         'portifolio_id',
