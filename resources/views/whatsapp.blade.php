@@ -24,13 +24,13 @@
     <meta name="keywords"
         content="fotografia, fotografo, fotografa, fotografo profissional, fotografia de mulher, fotografia de estudio, fotografia ar livre, fotografia familia, fotografia digital">
     <meta name='description'
-        content='Olá! Meu nome é Lilly Almeida, sou uma fotógrafa e tenho uma paixão por capturar a beleza e a personalidade de cada pessoa em minhas fotos.'>
+        content='(42) 991399-619 -> Olá! Meu nome é Lilly Almeida, sou uma fotógrafa e tenho uma paixão por capturar a beleza e a personalidade de cada pessoa em minhas fotos.'>
 
     <meta property="og:title" content="{{env('APP_NAME')}}">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="{{env('APP_NAME')}}">
-    <meta property="og:description" content="Olá! Meu nome é Lilly Almeida, sou uma fotógrafa e tenho uma paixão por capturar a beleza e a personalidade de cada pessoa em minhas fotos.">
+    <meta property="og:description" content="(42) 991399-619 -> Olá! Meu nome é Lilly Almeida, sou uma fotógrafa e tenho uma paixão por capturar a beleza e a personalidade de cada pessoa em minhas fotos.">
     <meta property="og:contact" content="+1234567890">
     <meta property="og:image" content="https://lillyalmeida.com.br/avatar/254/01HS4QN3XX2C1CGFK6BCFGC3KT.webp">
     <meta property="og:url" content="https://lillyalmeida.com.br/">
@@ -40,7 +40,7 @@
     <meta property="article:publisher" content="https://www.facebook.com/LillyAlmeida.fotografia/">
 
     <meta name="twitter:title" content="{{env('APP_NAME')}}">
-    <meta name="twitter:description" content="Olá! Meu nome é Lilly Almeida, sou uma fotógrafa e tenho uma paixão por capturar a beleza e a personalidade de cada pessoa em minhas fotos.">
+    <meta name="twitter:description" content="(42) 991399-619 -> Olá! Meu nome é Lilly Almeida, sou uma fotógrafa e tenho uma paixão por capturar a beleza e a personalidade de cada pessoa em minhas fotos.">
     <meta name="twitter:contact" content="+1234567890">
     <meta name="twitter:url" content="https://lillyalmeida.com.br/">
     <meta name="twitter:card" content="summary">
