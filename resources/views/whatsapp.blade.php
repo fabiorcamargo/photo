@@ -75,9 +75,9 @@
     <!-- End Google Tag Manager -->
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    {{-- <link rel="icon" type="image/x-icon" href="https://lillyalmeida.com.br/avatar/254/01HS4QN3XX2C1CGFK6BCFGC3KT.webp" /> --}}
+    <link rel="icon" type="image/x-icon" href="https://lillyalmeida.com.br/avatar/254/01HS4QN3XX2C1CGFK6BCFGC3KT.webp" />
 
-    <meta http-equiv="refresh" content="0; url={{$wp}}">
+    {{-- <meta http-equiv="refresh" content="0; url={{$wp}}"> --}}
 
 </head>
 
